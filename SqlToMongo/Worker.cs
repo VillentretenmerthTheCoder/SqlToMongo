@@ -9,7 +9,7 @@ namespace SqlToMongo
 {
     class Worker
     {
-        private string URL = "https://localhost:44382/Final_View";
+        private string URL = "https://localhost:44382/Final_View/json";
 
         public async Task<IList<Final_View>> GetAllDataAsync()
         {

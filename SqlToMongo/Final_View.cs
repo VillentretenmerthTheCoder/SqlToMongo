@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MongoDB.Bson;
 
 namespace SqlToMongo
 {
     class Final_View
     {
+        public ObjectId Id { get; set; }
         public Nullable<DateTime> DatoMaerke { get; set; }
         public string Navn { get; set; }
         public int ProduktId { get; set; }
